@@ -8,4 +8,4 @@
 I had this idea from early 90s when I was experimenting this training technique by doing 1 exercise for 5 min then rest for 1 min, back then the only efficient way was by timing with an electronic watch that required manual programming after each technique. 
 These few lines of codes can be actually developed into a really useful phone app. Two example that can be use in are sport and cooking. 
 
-#4
+#4   My fourth project is a simple task manger that needs a little bit more work. 
