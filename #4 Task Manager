@@ -18,29 +18,6 @@ def main():
         print("3. Exit")
         choice = input("Choose an option: ")
 
-        if choice == "1":
-            add_task()
-        elif choice == "2":
-            for task in tasks:
-                print(f"{task['id']}. {task['name']} - {task['status']}")
-        elif choice == "3":
-            print("Goodbye!")
-            break
-        else:
-            print("Invalid choice. Please try again.")
-
-if __name__ == "__main__":
-    main()
-
-
-def main():
-    while True:
-        print("\nTask Manager")
-        print("1. Add Task")
-        print("2. View Tasks")
-        print("3. Exit")
-        choice = input("Choose an option: ")
-
         try:
             if choice == "1":
                 add_task()
@@ -54,3 +31,6 @@ def main():
                 print("Invalid choice. Please try again.")
         except Exception as e:
             print(f"An error occurred: {e}")
+
+if __name__ == "__main__":
+    main()
