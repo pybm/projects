@@ -10,4 +10,4 @@ These few lines of codes can be actually developed into a really useful phone ap
 
 #4   My fourth project is a simple task manger that needs a little bit more work. 
 
-#5   This project is a raw representation of galaxies in the universe. Using tree variable and the normal distribution, we have a 3d plot with 1000 galaxies for each axis. Simple project but impactful. 
+#5   This project is a raw representation of galaxies in the universe. Using tree variable and the normal distribution with mean at 10 and standard deviation at 100, we have a 3d plot with 1000 galaxies for each axis. Simple project but impactful. 
