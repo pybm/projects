@@ -9,3 +9,5 @@ I had this idea from early 90s when I was experimenting this training technique 
 These few lines of codes can be actually developed into a really useful phone app. Two example that can be use in are sport and cooking. 
 
 #4   My fourth project is a simple task manger that needs a little bit more work. 
+
+#5   This project is a raw representation of galaxies in the universe. Using tree variable and the normal distribution, we have a 3d plot with 1000 galaxies for each axis. Simple project but impactful. 
