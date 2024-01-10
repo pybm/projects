@@ -1,0 +1,83 @@
+{% load static %}
+<title>Main page</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+</head>
+<body>
+  
+    <div class="container-fluid">
+    <div class="row">
+      <!-- Left column -->
+      <div class="col-md-3 left-column">
+        <!-- Your photo -->
+        <img src="{% static 'pic.png' %}" alt="Your Photo" class="profile-photo">
+        <br>
+          <br>
+          <br>
+        <img src="{% static 'tp.png' %}" alt="Your Photo" class="thumble-photo">
+
+        <!-- Contact information -->
+        <div class="contact-info">
+          <p>Email: <a href="mailto:pytbm@icloud.com">pytbm@icloud.com</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/bogdan-manta-py" target="_blank">Bogdan Manta's LinkedIn</a></p>
+          <p>GitHub: <a href="https://github.com/pybm" target="_blank">pybm's GitHub</a></p>
+        </div>
+      </div>
+
+      <!-- Content on the right -->
+      <div class="col-md-9">
+        <!-- Top navigation bar -->
+        <div class="topnav">
+          <a href="/">HOME</a> |
+          <a href="myfirst.html">About</a> |
+          <a href="{% static 'Bogdan_Manta_CV[515].pdf' %}" target="_blank">Resume</a> |
+          <a href=underconstruction.html>Kyo</a> |
+          <a href=projects.html>Projects</a> |
+          <a href=notes.html>Notes</a> 
+          <!-- ... other links ... -->
+        </div>
+
+        {% block content %}
+          <link rel="stylesheet" href="{% static 'bootstrap.css' %}">
+             
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>  
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        
+          <h3 class="text-center py-4">This is my project blog made in Django.</h3>
+          
+            <p class="text-center py-4">Here I am going to post some of my projects, ideas, and info about me and my projects.</p>
+            
+            <p class="text-center">Check out the 'About' section <a href="myfirst.html">Here</a></p>
+          
+        {% endblock %}
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

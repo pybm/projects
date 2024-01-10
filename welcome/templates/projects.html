@@ -1,0 +1,25 @@
+{% comment %}
+{% extends "main.html" %}
+{% endcomment %}
+{% load static %}
+<title>Technologies</title>
+<!DOCTYPE html>
+<html>
+<body>
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'mystyles.css' %}">
+
+<div class="mycard">
+  <h1>Projects in:</h1>
+  <ul>
+    {% for x in programs %}
+    <li onclick="window.location.href='/projects/{{ x|lower }}/'">{{ x }}</li>
+    {% endfor %}
+    <br><a href="/">Back</a></a>
+  </ul>
+</div>
+{% endblock %}
+
+</body>
+</html>
