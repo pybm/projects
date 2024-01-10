@@ -1,0 +1,51 @@
+body {
+  font: 600 18px 'Source Sans Pro', sans-serif;
+  letter-spacing: 0.64px;
+  color: #000848;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.topnav {
+  background-color: #77a89c;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.topnav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+}
+
+/* Additional styles to eliminate white space between topnav and content */
+.container-fluid {
+  padding: 0; /* Reset padding on the container to remove any white space */
+}
+
+.left-column {
+  background-color: #77a89c; /* Light green color */
+  height: 100vh; /* 100% of the viewport height */
+  padding-top: 60px; /* Adjusted padding for centering email */
+  text-align: center;
+}
+
+.profile-photo {
+  border-radius: 10px;  /* Adjust the radius as needed */
+  width: 80%;         /* Adjust the width as needed */
+  height: 60%;        /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+.contact-info {
+  padding: 20px;
+}

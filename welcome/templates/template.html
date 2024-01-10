@@ -1,0 +1,27 @@
+{% extends "main.html" %}
+{% load static %}
+
+
+{% block title %}
+  <title>My Projects</title>
+{% endblock %}
+
+{% block content %}
+  <link rel="stylesheet" href="{% static 'mystyles.css' %}">
+  <link rel="stylesheet" href="{% static 'bootstrap.css' %}">
+  
+  <div class="mycard">
+  
+    {% for program, projects in programs_data.items %}
+      <h1>{{ program }} Projects:</h1>
+      <ul>
+        {% for project in projects %}
+          <li>{{ project.name }} <a href="{{ project.github_url }}" target="_blank">GitHub</a></li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+    <br><a href="/" style="margin-left: auto;">Back</a>
+    
+
+  </div>
+{% endblock %}
