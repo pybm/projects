@@ -10,21 +10,48 @@ def add_task():
     tasks.append(task)
     print(f"Task '{task_name}' added successfully!")
 
+def view_tasks():
+    for task in tasks:
+        print(f"{task['id']}. {task['name']} - {task['status']}")
+
+def mark_task():
+    task_id = int(input("Enter the task id to mark as complete: "))
+    for task in tasks:
+        if task['id'] == task_id:
+            task['status'] = 'complete'
+            print(f"Task '{task['name']}' marked as complete!")
+            return
+    print(f"Task with id '{task_id}' not found.")
+
+def delete_task():
+    task_id = int(input("Enter the task id to delete: "))
+    for task in tasks:
+        if task['id'] == task_id:
+            tasks.remove(task)
+            print(f"Task '{task['name']}' deleted successfully!")
+            return
+    print(f"Task with id '{task_id}' not found.")
+
 def main():
     while True:
         print("\nTask Manager")
         print("1. Add Task")
         print("2. View Tasks")
-        print("3. Exit")
+        print("3. Mark Task as Complete")
+        print("4. Delete Task")
+        print("5. Exit")
         choice = input("Choose an option: ")
 
         try:
             if choice == "1":
                 add_task()
             elif choice == "2":
-                for task in tasks:
-                    print(f"{task['id']}. {task['name']} - {task['status']}")
+                view_tasks()
             elif choice == "3":
+                mark_task()
+            elif choice == "4":
+                delete_task()
+            elif choice == "5":
                 print("Goodbye!")
                 break
             else:
