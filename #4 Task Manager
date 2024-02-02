@@ -1,18 +1,23 @@
+from datetime import datetime
+
 tasks = []
 
 def add_task():
     task_name = input("Enter the task: ")
+    current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M")
+   
     task = {
         "id": len(tasks) + 1,
         "name": task_name,
-        "status": "incomplete"
+        "status": "incomplete",
+        "date": current_datetime
     }
     tasks.append(task)
-    print(f"Task '{task_name}' added successfully!")
+    print(f"Task '{task_name}' added successfully at {current_datetime}!")
 
 def view_tasks():
     for task in tasks:
-        print(f"{task['id']}. {task['name']} - {task['status']}")
+        print(f"{task['id']}. {task['name']} - {task['status']} - {task['date']}")
 
 def mark_task():
     task_id = int(input("Enter the task id to mark as complete: "))
