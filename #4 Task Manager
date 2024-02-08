@@ -1,4 +1,5 @@
 from datetime import datetime
+import pandas as pd
 
 tasks = []
 
@@ -16,8 +17,12 @@ def add_task():
     print(f"Task '{task_name}' added successfully at {current_datetime}!")
 
 def view_tasks():
-    for task in tasks:
-        print(f"{task['id']}. {task['name']} - {task['status']} - {task['date']}")
+    if not tasks:
+        print("No tasks available.")
+        return
+    
+    task_df = pd.DataFrame(tasks)
+    print(task_df.to_string(index=False))
 
 def mark_task():
     task_id = int(input("Enter the task id to mark as complete: "))
@@ -66,3 +71,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
