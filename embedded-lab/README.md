@@ -14,4 +14,4 @@ Main projects:
 
 - RF Intercom Control  
 
-- Analogic game Rock Paper Scissors 
+- Potentiometer-Based Rock Paper Scissors
