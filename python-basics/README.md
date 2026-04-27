@@ -8,3 +8,4 @@ Small Python projects created while learning programming fundamentals.
 
 - Task Manager
 
+▶️ Demo: [link]
