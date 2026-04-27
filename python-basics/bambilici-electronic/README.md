@@ -1,11 +1,9 @@
-This project is about a childhood game called "Bambilici electronic" 
+## Bambilici Electronic
 
-where you asked to choose a random number,
+A playful recreation of a childhood game.
 
-then the person asked you,
+You pick a number.  
 
-will return the number you choose and 
+The program always picks one higher… and wins.
 
-add one number (+1) to the original chosen along 
-
-with the message "I chose higher than you...you lost"
+Simple, nostalgic, and slightly unfair — just like the original game.
