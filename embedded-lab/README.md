@@ -14,4 +14,4 @@ Main projects:
 
 - RF Intercom Control  
 
-- Potentiometer-Based Rock Paper Scissors
+- Rock Paper Scissors (Potentiometer-Based)
