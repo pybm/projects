@@ -1,9 +1,9 @@
-My fourth project is a simple task manger.
+## Task Manager
 
-I started with three functions for adding, viewing, and deleting tasks. 
+A simple command-line task manager built in Python.
 
-Over time,I added another function for managing task statuses,
+The project started with basic functions for adding, viewing, and deleting tasks. 
 
-which allows users to mark tasks as completed and also to unmark them. 
+Later, I added task status management, allowing tasks to be marked as complete or incomplete.
 
-To add complexity, I utilized the datetime module and Pandas.
+It also uses the `datetime` module to store creation dates and `pandas` to display tasks in a clean table format.
