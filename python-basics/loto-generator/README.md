@@ -1,9 +1,13 @@
-This is my very first project
+## Loto Generator
 
-that was made during my first lessons about 
+One of my very first Python projects, created while learning how random numbers work.
 
-generating random numbers. 
+It generates lottery numbers for:
 
-So I made my own RNG for the lotto game named 6/49, 
+- 6/49  
 
- and for the less popular games like “Joker” and 5/40.
+- Joker  
+
+- 5/40  
+
+A simple script, but an important starting point in understanding randomness and basic Python logic.
