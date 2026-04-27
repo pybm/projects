@@ -8,4 +8,3 @@ Small Python projects created while learning programming fundamentals.
 
 - Task Manager
 
-- Galaxies 3D Visualization
