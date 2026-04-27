@@ -1,15 +1,16 @@
 ## Rock Paper Scissors (Raspberry Pi Pico)
 
-A hardware-based version of the classic Rock-Paper-Scissors game built with a Raspberry Pi Pico.
+A hardware-based version of the classic game using LEDs and a potentiometer instead of a traditional interface.
 
-The player selects their move using a potentiometer, while LEDs provide visual feedback for both the player and the AI.
+### Features
+- Player input via potentiometer  
+- LED feedback for player and AI  
+- RGB LED result indicator  
+- Hidden "EVIL mode"  
 
-The game includes:
-- LED-based selection system (no screen)
-- Random (or “EVIL”) AI behavior
-- RGB LED feedback for game results
-- A hidden “EVIL mode” that guarantees AI wins after a specific pattern
-
-A hands-on project combining MicroPython with real hardware interaction, focusing on input handling, timing logic, and visual feedback.
+### Tech
+- Raspberry Pi Pico  
+- MicroPython  
+- LEDs, button, potentiometer  
 
 ▶️ Demo: [link]
