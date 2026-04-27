@@ -1,15 +1,15 @@
-This on is about two premade intervals, first is 5 mins then the second one 
+## Intervals Timer
 
-is 1 min, both distinguished at the end of countdown by specific beep sound. 
+A simple interval timer based on a training method I used years ago.
 
-I had this idea from late 90s when I was experimenting this training 
+5 minutes of work.  
 
-technique by doing 1 exercise for 5 min then rest for 1 min, 
+1 minute of rest.  
 
-back then the only efficient way was by timing with an
+Each interval ends with a distinct beep.
 
-electronic watch that required manual programming after each interval.
+Back then, the only way to track this was with an electronic watch, manually resetting it after every round.
 
-These few lines of codes can be actually developed into a really useful phone app.
+This script automates that process in a few lines of code.
 
-Two example that can be use in are sport and cooking.
+Simple idea, but surprisingly useful — from workouts to cooking.
