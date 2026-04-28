@@ -1,5 +1,6 @@
 import time
-import beepy
+#import beepy
+import os
 
 def countdown_timer(seconds):
     while seconds:
@@ -9,18 +10,28 @@ def countdown_timer(seconds):
         time.sleep(1)
         seconds -= 1
 
+def beep(times=1):
+
+    for _ in range(times):
+
+        os.system('afplay /System/Library/Sounds/Glass.aiff')
+
+        time.sleep(0.5)
+
 def main():
     while True:
         print("Starting 5-minute countdown.")
         countdown_timer(5 * 60)
         
-        for _ in range(3):
-            beepy.beep(sound=1) 
-            time.sleep(0.5)
+#        for _ in range(3):
+#            beepy.beep(sound=1) 
+#            time.sleep(0.5)
+        beep(3)
 
         print("Starting 1-minute countdown.")
         countdown_timer(1 * 60)
-        beepy.beep(sound=5) 
+#        beepy.beep(sound=5) 
+        beep(1)
 
 if __name__ == '__main__':
     main()
