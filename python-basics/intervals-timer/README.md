@@ -13,3 +13,7 @@ Back then, the only way to track this was with an electronic watch, manually res
 This script automates that process in a few lines of code.
 
 Simple idea, but surprisingly useful — from workouts to cooking.
+
+-----------------------------------------------------------------
+Initially used the beepy library for sound notifications.
+Due to compatibility issues across environments, replaced it with system-level audio for reliability in demos.
