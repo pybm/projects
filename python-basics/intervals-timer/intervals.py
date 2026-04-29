@@ -22,7 +22,8 @@ def main():
     while True:
         print("Starting 5-minute countdown.")
         countdown_timer(5 * 60)
-        
+
+# Initial implementation using beepy (kept for reference)        
 #        for _ in range(3):
 #            beepy.beep(sound=1) 
 #            time.sleep(0.5)
@@ -30,7 +31,7 @@ def main():
 
         print("Starting 1-minute countdown.")
         countdown_timer(1 * 60)
-#        beepy.beep(sound=5) 
+#        beepy.beep(sound=5)  # replaced due to compatibility issues
         beep(1)
 
 if __name__ == '__main__':
