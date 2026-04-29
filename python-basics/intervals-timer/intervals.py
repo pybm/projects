@@ -5,8 +5,7 @@ import os
 def countdown_timer(seconds):
     while seconds:
         mins, secs = divmod(seconds, 60)
-        timeformat = '{:02d}:{:02d}'.format(mins, secs)
-        print(timeformat, end='\r')
+        print(f'{mins:02d}:{secs:02d}', end='\r')
         time.sleep(1)
         seconds -= 1
 
