@@ -8,4 +8,4 @@ Small Python projects created while learning programming fundamentals.
 
 - Task Manager
 
-▶️ See all demos on my website: hamsterlabs.tech/projects/
+▶️ See all demos on my website: www.hamsterlabs.tech/projects/
