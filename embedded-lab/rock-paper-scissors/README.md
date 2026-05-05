@@ -13,4 +13,4 @@ A hardware-based version of the classic game using LEDs and a potentiometer inst
 - MicroPython  
 - LEDs, button, potentiometer  
 
-▶️ Demo: [link]
+▶️ Demo: www.hamsterlabs.tech/projects/details/13/
