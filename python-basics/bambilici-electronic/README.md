@@ -4,4 +4,4 @@ A playful recreation of a childhood game where the outcome is always the same: y
 
 The best way to understand it is to see it in action.
 
-▶️ Demo: [link către video]
+▶️ Demo: http://www.hamsterlabs.tech/projects/details/9/
